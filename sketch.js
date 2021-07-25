@@ -11,22 +11,22 @@ function draw()
   box.shapeColor = "blue";
   
 
-  if(KeyDown("right"))
+  if(keyDown("right"))
 {
   box.x = box.x + 5;
 }
   
-if(KeyDown("left"))
+if(keyDown("left"))
 {
   box.x = box.x + -5;
 }
-if(KeyDown("up"))
+if(keyDown("up"))
 {
   box.y = box.y - 5;
 
 } 
 
-if(KeyDown("down"))
+if(keyDown("down"))
 {
   box.y = box.y + 5;
 }
